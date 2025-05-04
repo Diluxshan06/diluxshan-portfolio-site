@@ -1,0 +1,25 @@
+import React from 'react'
+
+const AboutMeText = () => {
+  return (
+    <div className='flex flex-col md:items-start sm:items-center md:text-left sm:text-center'>
+        <h2 className='text-6xl text-cyan mb-10'>About Me</h2>
+        <p className='text-white'>I'm Diluxshan Jogasinkam, a Computer Science (Hons) undergraduate
+             at the University of Vavuniya, with a strong interest in full-stack software
+              development. I have hands-on experience building responsive and scalable 
+              applications using React, Django, and Spring Boot.<br/>
+
+            I’m a quick learner with a passion for continuous improvement and innovation.
+             I enjoy exploring new technologies and solving real-world challenges through clean,
+              efficient code. I'm always open to opportunities that help me grow and make a meaningful impact.<br/>
+
+            My mission is to become a skilled and versatile software engineer 
+            who builds solutions that create real value for people and businesses.
+
+        </p>
+        <button className='border border-orange py-2 px-4 rounded-full hover:bg-orange text-lg flex items-center mt-10 transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'>My Projects</button>
+    </div>
+  )
+}
+
+export default AboutMeText
