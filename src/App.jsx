@@ -3,6 +3,8 @@ import HeroMain from "./Components/HeroSection/HeroMain"
 import HeroGradient from "./Components/HeroSection/HeroGradient"
 import SubHeroSection from "./Components/HeroSection/SubHeroSection"
 import AboutMeMain from "./Components/AboutMeSection/AboutMeMain"
+import SkillMain from "./Components/SkillSection/SkillMain"
+import SubSkills from "./Components/SkillSection/SubSkills"
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <HeroGradient/>
       <SubHeroSection/>
       <AboutMeMain/>
+      <SkillMain/>
+      <SubSkills/>
     </main>
   )
 }
