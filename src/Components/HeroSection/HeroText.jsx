@@ -4,7 +4,11 @@ const HeroText = () => {
   return (
     <div className='flex flex-col gap-4 h-full justify-center md:text-left sm:text-center'>
         <h2 className='lg:text-2xl sm:text-xl text-cyan uppercase'>Full Stack Software Engineer</h2>
-        <h1 className='md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special uppercase text-orange'>Diluxshan Jogasinkam</h1>
+        <h1 className='whitespace-nowrap md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special uppercase text-orange'>
+          {Array.from('DILUXSHAN JOGASINKAM').map((char, index) => 
+          <span key={index} className='inline-block transform hover:scale-110 transition-transform transition-colors duration-400 hover:text-cyan'>{char=== " "? "\u00A0" : char}</span> )
+          }
+        </h1>
         <p className='text-white text-lg mt-4'>Passionate Full Stack Developer dedicated to crafting <br/> responsive, scalable, and user-focused web applications.</p>
     </div>
   )

@@ -5,6 +5,7 @@ import SubHeroSection from "./Components/HeroSection/SubHeroSection"
 import AboutMeMain from "./Components/AboutMeSection/AboutMeMain"
 import SkillMain from "./Components/SkillSection/SkillMain"
 import SubSkills from "./Components/SkillSection/SubSkills"
+import ExperienceMain from "./Components/ExperienceSection/ExperienceMain"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutMeMain/>
       <SkillMain/>
       <SubSkills/>
+      <ExperienceMain/>
     </main>
   )
 }
