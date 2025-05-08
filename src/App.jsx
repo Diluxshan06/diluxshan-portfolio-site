@@ -6,6 +6,7 @@ import AboutMeMain from "./Components/AboutMeSection/AboutMeMain"
 import SkillMain from "./Components/SkillSection/SkillMain"
 import SubSkills from "./Components/SkillSection/SubSkills"
 import ExperienceMain from "./Components/ExperienceSection/ExperienceMain"
+import ProjectMain from "./Components/ProjectsSection/ProjectMain"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SkillMain/>
       <SubSkills/>
       <ExperienceMain/>
+      <ProjectMain/>
     </main>
   )
 }
