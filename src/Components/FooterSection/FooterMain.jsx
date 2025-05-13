@@ -12,7 +12,7 @@ const FooterMain = () => {
                 {AllNavBarArray.map((link, index) => {
                     return(
                         <li key={index} className='group'>
-                            <Link to={link.section} spy={true} smooth={true} offset={-130} duration={500} className='cursor-pointer hover:text-white transition-all duration-500' className='hover:text-white transition-all duration-500 cursor-pointer'>{link.link}</Link>
+                            <Link to={link.section} spy={true} smooth={true} offset={-130} duration={500} className='cursor-pointer hover:text-white transition-all duration-500'>{link.link}</Link>
                         </li>
                     );
                 })}
