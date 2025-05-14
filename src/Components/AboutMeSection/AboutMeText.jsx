@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import Diluxshan_CV from '../../../public/CV/Diluxshan.J_CV_New.pdf'
+import Diluxshan_CV from '../../assets/CV/Diluxshan.J_CV_New.pdf'
 
 const AboutMeText = () => {
   return (
@@ -20,10 +20,7 @@ const AboutMeText = () => {
             who builds solutions that create real value for people and businesses.
 
         </p>
-        <div className='flex justify-between items-center gap-96'>
-        <Link to='projects' spy={true} smooth={true} offset={-130} duration={500}><button className='border border-orange py-2 px-4 rounded-full hover:bg-orange text-lg flex items-center mt-10 transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'>My Projects</button></Link>
-        <button className='border border-orange py-2 px-4 rounded-full hover:bg-orange text-lg flex items-center mt-10 transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'><a href={Diluxshan_CV} download='Diluxshan_CV'>View Resume</a></button>
-        </div>
+        <button className='border border-orange py-2 px-4 rounded-full hover:bg-orange text-lg flex items-center mt-10 transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'><a href={Diluxshan_CV} target='_blank' rel='noopener noreferrer' download='Diluxshan_CV'>View Resume</a></button>
         
     </div>
   )

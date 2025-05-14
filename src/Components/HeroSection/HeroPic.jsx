@@ -1,5 +1,5 @@
 import React from 'react'
-import DiluxPic from '../../../public/images/DiluxPic.png'
+import DiluxPic from '../../assets/images/DiluxPic.png'
 import { PiHexagonThin } from "react-icons/pi";
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/varients'
