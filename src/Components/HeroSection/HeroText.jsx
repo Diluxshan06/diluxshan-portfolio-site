@@ -16,7 +16,7 @@ const HeroText = () => {
         initial='hidden'
         whileInView='show'
         viewport={{once:false, amount:0}}
-         className='whitespace-nowrap bg-clip-text md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special uppercase' style={{background:"linear-gradient(to right,#15d1e9,#88e5f0,#fb9718,#fac27b,#d28422,#88e5f0,#009fb3,#15d1e9,#fb9718,#fac27b )", backgroundSize:"200%", backgroundClip:"text", WebkitTextFillColor:"transparent", animation:"gradient 4s linear infinite"}} >
+         className='bg-clip-text md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special uppercase' style={{background:"linear-gradient(to right,#15d1e9,#88e5f0,#fb9718,#fac27b,#d28422,#88e5f0,#009fb3,#15d1e9,#fb9718,#fac27b )", backgroundSize:"200%", backgroundClip:"text", WebkitTextFillColor:"transparent", animation:"gradient 4s linear infinite"}} >
           DILUXSHAN JOGASINKAM
         </motion.h1>
         <motion.p
